@@ -1,0 +1,13 @@
+#business cards increases 1 liquor each card characters increase 3
+cardsNeeded = 45
+startingLiquor = 5
+cardIncrease = 1
+liquorNeeded = 0
+
+while cardsNeeded > 1:
+    liquorNeeded += startingLiquor
+    startingLiquor += cardIncrease
+    cardsNeeded -= 1
+
+print("Liquor needed:  ",liquorNeeded)
+
